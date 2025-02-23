@@ -22,7 +22,7 @@ Before running the script you need to have the following tools installed:
 1. Click the Code button on top of the webpage and press download Zip. If you are an advanced user, clone the repository.
 2. Unpack the zip file or go into the folder and open a command line. If you are on Windows you can do that by clicking into the Link field in windows explorer and typing in cmd.
 3. Install all the dependencies using the following command (copy pasting this into the command prompt)
-```pyton
+```sh
 pip install -r requirements.txt
 ```
 4. Make sure to have ffmpeg installed. This script is using yt-dlp which absolutely requires ffmpeg. Look for an installation guide for installing ffmpeg. You can download it here on [their official website](https://ffmpeg.org/download.html)
