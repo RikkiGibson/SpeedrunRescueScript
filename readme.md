@@ -106,7 +106,7 @@ Before you start, you must set up a Twitch API App. You will only need to do thi
 
 #### Setting up the configuration for a speedrun.com leaderboard
 1. [Ignore](#ignoring-an-option) the `username` option if it is there and not ignored already. 
-2. [Specify](#specifying-an-option) an option called `gane`. The value should be the speedrun.com game abbreviation of the leaderboard you want to download. You can find the abbreviation in the url of a leaderboard, after `speedrun.com`. For example, the abbreviation of https://speedrun.com/sm64 is `sm64`.
+2. [Specify](#specifying-an-option) an option called `game`. The value should be the speedrun.com game abbreviation of the leaderboard you want to download. You can find the abbreviation in the url of a leaderboard, after `speedrun.com`. For example, the abbreviation of https://speedrun.com/sm64 is `sm64`.
 3. Optionally, you can [specify](#specifying-an-option) the option `video-folder-name`, which will control the folder where your videos are stored. You can get the folder name by double clicking the address bar in Windows Explorer of the folder you want. Note that you must use forward slashes as path separators, e.g. `D:\speedrunrescuescript\videos` must become `D:/speedrunrescuescript/videos`. If you aren't sure, leave it as `videos`.
 4. [Specify](#ignoring-an-option) the `app-id` option. The value should be the **Client ID** which you saved earlier.
 5. [Specify](#ignoring-an-option) the `app-secret` option. The value should be the **Client Secret** which you saved earlier.
